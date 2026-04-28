@@ -1,24 +1,26 @@
 {
   "name": "vercel-xhttp-relay",
-  "version": "1.0.0",
-  "description": "Edge-runtime XHTTP relay for Xray/V2Ray on Vercel",
+  "version": "1.0.1",
+  "description": "Custom Edge-runtime XHTTP relay for Xray/V2Ray optimized for Vercel deployments.",
   "private": true,
-  "main": "index.js",
+  "main": "api/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Warning: No test suite configured for this relay\" && exit 0"
+    "build": "echo \"No build step required\"",
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "vercel",
     "xray",
     "v2ray",
     "xhttp",
+    "proxy",
     "relay",
-    "edge-runtime"
+    "vercel-edge",
+    "serverless"
   ],
   "author": "Relay Administrator",
-  "license": "MIT",
-  "_internal_notes": "Do not modify the private flag to prevent accidental publishing to NPM registry.",
-  "dependencies": {},
-  "devDependencies": {}
+  "license": "MIT"
 }
