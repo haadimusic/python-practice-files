@@ -1,7 +1,7 @@
 {
   "name": "legacy-config-backup",
   "version": "1.0.1",
-  "description": "Custom Edge-runtime XHTTP relay for Xray/V2Ray optimized for Vercel deployments.",
+  "description": "Internal testing configuration and local data backup artifacts.",
   "private": true,
   "main": "api/index.js",
   "engines": {
