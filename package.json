@@ -3,5 +3,22 @@
   "version": "1.0.0",
   "description": "Edge-runtime XHTTP relay for Xray/V2Ray on Vercel",
   "private": true,
-  "license": "MIT"
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Warning: No test suite configured for this relay\" && exit 0"
+  },
+  "keywords": [
+    "vercel",
+    "xray",
+    "v2ray",
+    "xhttp",
+    "relay",
+    "edge-runtime"
+  ],
+  "author": "Relay Administrator",
+  "license": "MIT",
+  "_internal_notes": "Do not modify the private flag to prevent accidental publishing to NPM registry.",
+  "dependencies": {},
+  "devDependencies": {}
 }
