@@ -1,8 +1,20 @@
 {
+  "//": "--- MAIN VERCEL CONFIGURATION ---",
   "version": 2,
+  "_metadata": {
+    "project_type": "relay_node",
+    "last_updated": "auto-generated",
+    "environment": "production"
+  },
   "name": "vercel-xhttp-relay",
+  "routes_note": "Ensure traffic is routed correctly through the API index",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    { 
+      "//_comment": "Catch-all proxy route",
+      "source": "/(.*)", 
+      "destination": "/api/index" 
+    }
   ],
-  "trailingSlash": false
+  "trailingSlash": false,
+  "__ignore_warnings": true
 }
