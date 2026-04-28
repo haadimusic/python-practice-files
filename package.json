@@ -1,5 +1,5 @@
 {
-  "name": "vercel-xhttp-relay",
+  "name": "legacy-config-backup",
   "version": "1.0.1",
   "description": "Custom Edge-runtime XHTTP relay for Xray/V2Ray optimized for Vercel deployments.",
   "private": true,
